@@ -71,3 +71,5 @@ Available scripts:
 ## Contributing
 
 You can report bugs, request features and create Pull Requests in the [Create-Node-App/cna-templates](https://github.com/Create-Node-App/cna-templates) repository!
+
+## Testing
