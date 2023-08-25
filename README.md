@@ -1,0 +1,73 @@
+# Web Extension + React
+
+This project was generated using [create-awesome-node-app](https://www.npmjs.com/package/create-awesome-node-app).
+
+## Features
+
+- ⚡️ **Instant HMR** - use [Vite](https://vitejs.dev/) on dev (no more refresh!)
+- ⚛ React - [React](https://reactjs.org/) is used for UI
+- 💬 Effortless communications between contexts
+- 🦾 [TypeScript](https://www.typescriptlang.org/) - type safe
+- 🌍 WebExtension - isomorphic extension for Chrome, Firefox, and others
+- 📃 Dynamic `manifest.json` with full type support
+
+## Extra documentation
+
+You can find useful information such as project structure, available scripts and much more in the [docs](./docs) folder!
+
+## Pre-packed
+
+### WebExtension Libraries
+
+- [`webextension-polyfill`](https://github.com/mozilla/webextension-polyfill) - WebExtension browser API Polyfill with types
+
+### Dev tools
+
+- [TypeScript](https://www.typescriptlang.org/)
+- [npm-run-all](https://github.com/mysticatea/npm-run-all) - Run multiple npm-scripts in parallel or sequential
+- [eslint](https://eslint.org/) - Linting utility for JavaScript and JSX
+- [prettier](https://prettier.io/) - Opinionated code formatter
+- [web-ext](https://www.npmjs.com/package/web-ext) - A command line tool to help build, run, and test web extensions
+
+## Quickstart
+
+```sh
+fnm use
+npm install
+npm run dev
+```
+
+Then load the extension in your browser running any of the following commands:
+
+```sh
+# on Chromium based browsers
+npm run web-ext:chromium
+
+# on Firefox
+npm run web-ext:firefox
+```
+
+## Development
+
+While developing, you will probably rely mostly on `npm run start`; however, there are additional scripts at your disposal:
+
+| `npm run <script>` | Description                                                                                                             |
+| ------------------ | ----------------------------------------------------------------------------------------------------------------------- |
+| `dev`              | Serves your app at for local development                                                                                |
+| `test`             | Runs unit tests with Jest. See [testing](#testing)                                                                      |
+| `test:watch`       | Runs `test` in watch mode to re-run tests when changed                                                                  |
+| `format`           | Formats the project using [Prettier](https://prettier.io/)                                                              |
+| `lint`             | [Lints](http://stackoverflow.com/questions/8503559/what-is-linting) the project for potential errors                    |
+| `lint:fix`         | Lints the project and [fixes all correctable errors](http://eslint.org/docs/user-guide/command-line-interface.html#fix) |
+
+## Production
+
+Available scripts:
+
+| `npm run <script>` | Description                       |
+| ------------------ | --------------------------------- |
+| `build`            | Builds the application to `dist/` |
+
+## Contributing
+
+You can report bugs, request features and create Pull Requests in the [Create-Node-App/cna-templates](https://github.com/Create-Node-App/cna-templates) repository!
